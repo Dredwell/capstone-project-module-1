@@ -10,6 +10,11 @@
   font-family: 'Leto', sans-serif;
 }
 
+header p {
+  max-width: 700px;
+  text-align: center;
+}
+
 .about-info {
   box-sizing: border-box;
   background-color: #fff;

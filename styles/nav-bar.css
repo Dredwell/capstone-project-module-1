@@ -93,11 +93,6 @@ header h1 {
     padding: 0;
   }
 
-  header p {
-    max-width: 700px;
-    text-align: center;
-  }
-
   .nav-mobile {
     display: none;
   }
