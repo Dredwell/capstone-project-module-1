@@ -9,7 +9,7 @@ menuButton.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   menu.style.display = 'none';
 });
-navElements.forEach( (navElement) => {
+navElements.forEach((navElement) => {
   navElement.addEventListener('click', () => {
     menu.style.display = 'none';
   });

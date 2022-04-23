@@ -19,7 +19,7 @@ const printCourses = (amount) => {
 
 const printTopics = () => {
   let str = '';
-  for(let i = 0; i < dataTopics.length; i += 1){
+  for (let i = 0; i < dataTopics.length; i += 1) {
     str += `<div class="topic">
     <div class="image-container">
       <img src="${dataTopics[i].urlimg}">

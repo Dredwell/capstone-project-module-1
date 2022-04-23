@@ -156,17 +156,21 @@ footer div:first-child {
     flex-direction: column;
     margin-left: 200px;
   }
-  
+
   .title-container h1 {
     text-align: left;
     font-size: 50px;
   }
-  
+
+  footer p {
+    text-align: right;
+  }
+
   .title-container p {
     max-width: 500px;
     text-align: left;
   }
-  
+
   .topics-container {
     display: flex;
   }
@@ -186,17 +190,10 @@ footer div:first-child {
   }
 
   .topic p {
-    font-size: 16px;
-  }
-
-  footer p {
-    text-align: right;
-  }
-
-  .topic p {
     width: auto;
     text-align: center;
     margin-top: 10px;
+    font-size: 16px;
   }
 
   .courses-container {
