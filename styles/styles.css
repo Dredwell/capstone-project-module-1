@@ -10,17 +10,6 @@
   font-family: 'Leto', sans-serif;
 }
 
-header h1 {
-  text-align: left;
-  font-size: 50px;
-  width: 1000px;
-}
-
-header p {
-  max-width: 1000px;
-  text-align: left;
-}
-
 .topics {
   background-image: url(../assets/dark-concrete-texture-background.jpg);
   background-size: cover;
@@ -62,13 +51,13 @@ header p {
 
 .topic h3 {
   width: 30%;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--first-color);
 }
 
 .topic p {
   width: 50%;
-  font-size: 16px;
+  font-size: 12px;
   color: var(--third-color);
 }
 
@@ -157,6 +146,27 @@ footer div:first-child {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    align-items: flex-start;
+  }
+
+  .title-container {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  
+  .title-container h1 {
+    text-align: left;
+    font-size: 50px;
+  }
+  
+  .title-container p {
+    max-width: 500px;
+    text-align: left;
+  }
+  
   .topics-container {
     display: flex;
   }
@@ -172,6 +182,11 @@ footer div:first-child {
     width: auto;
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .topic p {
+    font-size: 16px;
   }
 
   footer p {
