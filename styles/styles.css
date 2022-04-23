@@ -151,15 +151,15 @@ footer div:first-child {
   }
 
   .title-container {
-    width: 768px;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 20vw;
   }
 
   .title-container h1 {
     text-align: left;
-    font-size: 50px;
+    font-size: 60px;
   }
 
   footer p {
