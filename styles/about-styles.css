@@ -1,9 +1,9 @@
-:root{
-  --first-color : #ec5242;
+:root {
+  --first-color: #ec5242;
   --second-color: #272a31;
-  --third-color:  #d3d3d3;
-  }
-  
+  --third-color: #d3d3d3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,10 +22,13 @@
   flex-direction: column;
 }
 
+footer p {
+  text-align: right;
+}
+
 .contact-info p {
   text-align: center;
   padding: 0;
-  background-color: none;
   margin: 5px 0;
 }
 
@@ -64,8 +67,4 @@ footer {
 
 footer div:first-child {
   color: var(--first-color);
-}
-
-footer p {
-  text-align: right;
 }

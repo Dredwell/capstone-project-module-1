@@ -1,7 +1,7 @@
-:root{
-  --first-color : #ec5242;
+:root {
+  --first-color: #ec5242;
   --second-color: #272a31;
-  --third-color:  #d3d3d3;
+  --third-color: #d3d3d3;
 }
 
 * {
@@ -17,7 +17,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;;
+  align-items: center;
 }
 
 .topics-container {
@@ -30,7 +30,7 @@
   box-sizing: border-box;
   align-items: center;
   background-color: rgba(211, 211, 211, 0.2);
-  margin: 15px 0px;
+  margin: 15px 0;
   border-radius: 10px;
   width: 100%;
   font-family: 'Lato', sans-serif;
@@ -52,7 +52,7 @@
 .topic h3 {
   width: 30%;
   font-size: 20px;
-  color: var(--first-color)
+  color: var(--first-color);
 }
 
 .topic p {
@@ -145,10 +145,6 @@ footer div:first-child {
   color: var(--first-color);
 }
 
-footer p {
-  text-align: right;
-}
-
 @media screen and (min-width: 768px) {
   .topics-container {
     display: flex;
@@ -165,6 +161,10 @@ footer p {
     width: auto;
     text-align: center;
     margin-top: 10px;
+  }
+
+  footer p {
+    text-align: right;
   }
 
   .topic p {
