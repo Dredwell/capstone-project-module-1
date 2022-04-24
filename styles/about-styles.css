@@ -27,6 +27,12 @@ header p {
   flex-direction: column;
 }
 
+footer p {
+  color: var(--second-color);
+  font-size: 12px;
+  margin-left: 30px;
+}
+
 .contact-info p {
   text-align: center;
   padding: 0;
@@ -97,6 +103,10 @@ header p {
   display: flex;
 }
 
+footer img {
+  width: 150px;
+}
+
 .partners-container > img {
   height: 100%;
   width: 30%;
@@ -111,16 +121,6 @@ footer {
   box-sizing: border-box;
   margin-top: 20px;
   border-top: 1px var(--third-color) solid;
-}
-
-footer img {
-  width: 150px;
-}
-
-footer p {
-  color: var(--second-color);
-  font-size: 12px;
-  margin-left: 30px;
 }
 
 @media screen and (min-width: 768px) {
