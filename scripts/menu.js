@@ -14,3 +14,23 @@ navElements.forEach((navElement) => {
     menu.style.display = 'none';
   });
 });
+
+window.onresize = () => {
+  if(window.screen.width > 768) {
+    document.getElementById('logo-footer').src = './assets/logo-footer-white.svg';
+    document.getElementById('p-footer').style.color = '#fff';
+  } else {
+    document.getElementById('logo-footer').src = './assets/logo-footer.svg';
+    document.getElementById('p-footer').style.color = '#272a31';
+  }
+}
+
+window.onload = () => {
+  if(window.screen.width > 768) {
+    document.getElementById('logo-footer').src = './assets/logo-footer-white.svg';
+    document.getElementById('p-footer').style.color = '#fff';
+  } else {
+    document.getElementById('logo-footer').src = './assets/logo-footer.svg';
+    document.getElementById('p-footer').style.color = '#272a31';
+  }
+}

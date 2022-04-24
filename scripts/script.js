@@ -9,9 +9,14 @@ const printCourses = (amount) => {
   let str = '';
   for (let i = 0; i < amount; i += 1) {
     str += `<div class="course">
-    <h4>${dataCourses[i].title}</h4>
-    <h6 class="category">${dataCourses[i].category}</h6>
-    <p>${dataCourses[i].description}</p>
+    <div class="course-img">
+      <img src="${dataCourses[i].imgUrl}">
+    </div>
+    <div class="course-info">
+      <h4>${dataCourses[i].title}</h4>
+      <h6 class="category">${dataCourses[i].category}</h6>
+      <p>${dataCourses[i].description}</p>
+    </div>
   </div>`;
   }
   return str;

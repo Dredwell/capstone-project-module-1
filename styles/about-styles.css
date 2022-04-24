@@ -27,10 +27,6 @@ header p {
   flex-direction: column;
 }
 
-footer p {
-  text-align: right;
-}
-
 .contact-info p {
   text-align: center;
   padding: 0;
@@ -81,6 +77,33 @@ footer p {
   z-index: 10;
 }
 
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  height: 250px;
+  background-color: var(--second-color);
+}
+
+.partners h3 {
+  color: var(--third-color);
+  font-size: 20px;
+}
+
+.partners-container {
+  height: 150px;
+  display: flex;
+}
+
+.partners-container > img {
+  height: 100%;
+  width: 30%;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -90,12 +113,31 @@ footer {
   border-top: 1px var(--third-color) solid;
 }
 
-footer div:first-child {
-  color: var(--first-color);
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color: var(--second-color);
+  font-size: 12px;
+  margin-left: 30px;
 }
 
 @media screen and (min-width: 768px) {
   header {
     align-items: center;
+  }
+
+  footer {
+    justify-content: center;
+    background-color: var(--second-color);
+  }
+
+  footer img {
+    width: 250px;
+  }
+  
+  .partners {
+    display: none;
   }
 }
