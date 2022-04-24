@@ -1,0 +1,160 @@
+:root {
+  --first-color: #ec5242;
+  --second-color: #272a31;
+  --third-color: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Leto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+.nav-mobile {
+  display: block;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-image: url(../assets/17580.jpg);
+  background-size: 100%;
+}
+
+header p {
+  color: var(--second-color);
+  font-family: 'Lato', sans-serif;
+  line-height: 25px;
+  margin: 30px 0;
+}
+
+header h1 {
+  color: var(--first-color);
+  font-family: 'COCOGOOSE', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.menu-button {
+  width: 40px;
+  margin: 15px;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+
+#close-button {
+  height: 40px;
+  width: 40px;
+  margin: 25px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu li {
+  border-bottom: 1px var(--second-color) solid;
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.menu a {
+  color: var(--first-color);
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .black-bar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--second-color);
+    color: #fff;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .black-bar div {
+    margin: 0 5px;
+  }
+
+  .black-bar span {
+    margin: 0 30px;
+  }
+
+  .black-bar img {
+    background-color: #fff;
+  }
+
+  .nav-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-bar img {
+    width: 250px;
+    margin-left: 100px;
+  }
+
+  .nav-desktop ul {
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .nav-desktop li {
+    font-size: 18px;
+    padding: 30px 10px;
+  }
+
+  .nav-desktop a {
+    color: var(--second-color);
+  }
+
+  .nav-desktop li:first-child a {
+    color: var(--first-color);
+  }
+}
