@@ -184,7 +184,9 @@ footer {
   }
 
   footer p {
-    text-align: right;
+    color: var(--second-color);
+    font-size: 12px;
+    margin-left: 30px;
   }
 
   .title-container p {
@@ -208,12 +210,6 @@ footer {
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-  }
-
-  footer p {
-    color: var(--second-color);
-    font-size: 12px;
-    margin-left: 30px;
   }
 
   .topic p {
